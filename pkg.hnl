@@ -1,3 +1,4 @@
 -- lib-str: modules this package provides (entry defaults to
 -- src/index.hnl; N modules resolve to src/<name>/index.hnl).
-{ modules: ["str"], name: "str", description: "The str port contract — axioms/laws every backend must satisfy.", license: "MIT" }
+-- test_coverage "none": str.* contract axioms only — semantics live in the backend impls (str-handl & friends).
+{ modules: ["str"], name: "str", description: "The str port contract — axioms/laws every backend must satisfy.", license: "MIT", test_coverage: "none" }
