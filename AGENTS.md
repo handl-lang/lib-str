@@ -9,7 +9,7 @@ The `str` **port contract** — axioms/laws every backend (`str-handl`,
 | --- | --- |
 | `src/index.hnl` | the contract — signatures + laws |
 | `pkg.hnl` | package manifest — `modules: ["str"]` |
-| `scripts/hnl-gate.sh`, `ci.sh` | the gate / bupha entry |
+| `scripts/hnl-gate.sh`, `workflows/gate.yaml` | the gate / bupha entry |
 
 ## Contract
 
