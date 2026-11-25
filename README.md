@@ -8,7 +8,7 @@ The `str` port contract — axioms/laws every backend (`str-handl`, `str-c`,
 ```text
 src/index.hnl   the .hnl sources
 pkg.hnl         package manifest — modules, deps, description, license
-ci.sh           bupha entry → scripts/hnl-gate.sh
+workflows/gate.yaml           bupha entry (handl-gates) → scripts/hnl-gate.sh
 ```
 
 ## Gate
