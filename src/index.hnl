@@ -10,7 +10,7 @@
 --- Types are symbolic: `String` and `Float` are treated as type variables by
 --- the contract parser (only `Int`, `Bool`, and `List T` are base types).
 --- Char length is counted in Unicode scalar values, matching the FFI
---- semantics in `plugin-lib-utils/src/str/ops.rs`.
+--- semantics in `plugin-lib-stdlib`'s `ops/strs.rs`.
 ---
 --- Predicate vocabulary available to the contract engine today:
 ---   LengthEq(a, b)   |a| = |b|            LengthLe(a, b)   |a| <= |b|
